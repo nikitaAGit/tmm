@@ -1,0 +1,18 @@
+.video {
+    justify-content: center;
+    max-width: 1180px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+}
+
+@media (width <= 1200) {
+    .video {
+        width: 900px;
+    }
+}

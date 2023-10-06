@@ -1,0 +1,37 @@
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 534px;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 78px;
+}
+
+.text {
+    max-width: 152px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &Inner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-top: 1px dotted #fca311;
+    }
+}

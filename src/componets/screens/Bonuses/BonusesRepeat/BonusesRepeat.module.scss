@@ -1,0 +1,14 @@
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+}

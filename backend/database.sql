@@ -1,0 +1,11 @@
+CREATE TABLE user(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(200) NOT NULL,
+    gmail VARCHAR(250) NOT NULL
+)
+
+CREATE TABLE message(
+    id SERIAL PRIMARY KEY,
+    text TEXT NOT NULL,
+    id_user INTEGER NOT NULL 
+)

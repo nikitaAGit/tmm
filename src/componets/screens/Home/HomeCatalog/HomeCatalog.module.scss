@@ -1,0 +1,123 @@
+.inner {
+    background-color: #fca311;
+    border-radius: 20px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items {
+    visibility: hidden;
+    transform: scale(0);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    &Hidden {
+        position: relative;
+        visibility: visible;
+        transform: none;
+    }
+}
+
+.item {
+    position: relative;
+    width: 320px;
+    height: 480px;
+    display: flex;
+    border-radius: 20px;
+    transition: 0.2s;
+    z-index: 10;
+    &:hover {
+        transition: 0.2s;
+        transform: scale(1.05);
+    }
+}
+
+.content {
+    background-color: rgba(6, 6, 6, 0.5);
+    z-index: 1;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title,
+.text {
+    z-index: 1;
+}
+
+.buttonRedirect {
+    position: absolute;
+    z-index: 20;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: unset;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.1;
+    height: 165px;
+    color: #fff;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (width <= 600px) {
+    .inner {
+        height: 535px;
+    }
+    .item {
+        width: 300px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:hover {
+            transform: none;
+        }
+    }
+    .items {
+        position: relative;
+        visibility: visible;
+        transform: none;
+    }
+    .itemsHidden {
+        display: none;
+    }
+}
