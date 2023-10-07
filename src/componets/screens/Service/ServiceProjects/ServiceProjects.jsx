@@ -19,10 +19,10 @@ const ServiceProjects = (props) => {
                 <div className={s.inner}>
                     <h2 className={s.title}>Наши работы </h2>
                     <div className={s.images}>
-                        <img className={s.img} src={`../../../../public/Projects/project${props.idService}_1.jpg`} alt="" />
-                        <img className={s.img} src={`../../../../public/Projects/project${props.idService}_2.jpg`} alt="" />
-                        <img style={styleActive} className={`${s.img} ${s.imgHidden}`} src={`../../../../public/Projects/project${props.idService}_3.jpg`} alt="" />
-                        <img style={styleActive} className={`${s.img} ${s.imgHidden}`} src={`../../../../public/Projects/project${props.idService}_4.jpg`} alt="" />
+                        <img className={s.img} src={`http://makers-kdi.ru/Projects/project${props.idService}_1.jpg`} alt="" />
+                        <img className={s.img} src={`http://makers-kdi.ru/Projects/project${props.idService}_2.jpg`} alt="" />
+                        <img style={styleActive} className={`${s.img} ${s.imgHidden}`} src={`http://makers-kdi.ru/Projects/project${props.idService}_3.jpg`} alt="" />
+                        <img style={styleActive} className={`${s.img} ${s.imgHidden}`} src={`http://makers-kdi.ru/Projects/project${props.idService}_4.jpg`} alt="" />
                         <button className={`${s.button} ${s.buttonHidden}`} onClick={handleClick}>{textButton}</button>
                     </div>
                 </div>

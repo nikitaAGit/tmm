@@ -16,20 +16,20 @@ const Service = () => {
         if (id == 1) {
             setService({
                 title: 'Моделирование',
-                video: '../../../../public/model.mp4',
+                video: 'http://makers-kdi.ru/model.mp4',
             })
         }
         else if (id == 2) {
             setService({
                 title: 'Программирование',
-                video: '../../../../public/programming.mp4',
+                video: 'http://makers-kdi.ru/programming.mp4',
             })
         }
 
         else if (id == 0) {
             setService({
                 title: 'Разработка Игр',
-                video: '../../../../public/gaming.mp4',
+                video: 'http://makers-kdi.ru/gaming.mp4',
             })
         }
     }, [])

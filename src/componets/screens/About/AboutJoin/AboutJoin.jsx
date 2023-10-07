@@ -13,15 +13,15 @@ const AboutJoin = () => {
                         <ul className={s.items}>
                             <li className={s.item}>
                                 <p className={s.itemText}>Переходите по ссылке</p>
-                                <img className={s.icon} src="../../../../../public/About/about_min2.jpg" alt="" />
+                                <img className={s.icon} src="http://makers-kdi.ru/About/about_min2.jpg" alt="" />
                             </li>
                             <li className={s.item}>
-                                <img className={s.icon} src="../../../../../public/About/about_min1.jpg" alt="" />
+                                <img className={s.icon} src="http://makers-kdi.ru/About/about_min1.jpg" alt="" />
                                 <p className={s.itemText}>Оставляйте резюме</p>
                             </li>
                             <li className={s.item}>
                                 <p className={s.itemText}>Проходите собеседование</p>
-                                <img className={s.icon} src="../../../../../public/About/about_min2.jpg" alt="" />
+                                <img className={s.icon} src="http://makers-kdi.ru/About/about_min2.jpg" alt="" />
                             </li>
                         </ul>
                         <a className={s.link} href="#">Мы Вконтакте</a>

@@ -14,7 +14,7 @@ const BonusesFree = () => {
                         </div>
                         <p className={`${style.text}`}>пишите обсудим)</p>
                     </div>
-                    <img className={style.img} src="../../../../../public/Bonuses/bonusesVip.svg" alt="" />
+                    <img className={style.img} src="http://makers-kdi.ru/Bonuses/bonusesVip.svg" alt="" />
                 </div>
             </div>
         </div>
